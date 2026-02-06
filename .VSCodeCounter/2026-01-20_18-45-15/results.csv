@@ -1,0 +1,40 @@
+"filename", "language", "JavaScript", "Dotenv", "PostCSS", "SCSS", "JavaScript JSX", "JSON", "HTML", "Markdown", "comment", "blank", "total"
+"d:\react project\.env", "Dotenv", 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1
+"d:\react project\README.md", "Markdown", 0, 0, 0, 0, 0, 0, 0, 7, 0, 6, 13
+"d:\react project\eslint.config.js", "JavaScript", 28, 0, 0, 0, 0, 0, 0, 0, 0, 2, 30
+"d:\react project\index.html", "HTML", 0, 0, 0, 0, 0, 0, 12, 0, 0, 1, 13
+"d:\react project\package-lock.json", "JSON", 0, 0, 0, 0, 0, 3756, 0, 0, 0, 1, 3757
+"d:\react project\package.json", "JSON", 0, 0, 0, 0, 0, 30, 0, 0, 0, 1, 31
+"d:\react project\src\App.jsx", "JavaScript JSX", 0, 0, 0, 0, 12, 0, 0, 0, 0, 5, 17
+"d:\react project\src\api\imageAPI.js", "JavaScript", 23, 0, 0, 0, 0, 0, 0, 0, 0, 4, 27
+"d:\react project\src\components\AuthorLink\AuthorLink.jsx", "JavaScript JSX", 0, 0, 0, 0, 18, 0, 0, 0, 0, 2, 20
+"d:\react project\src\components\Button\Button.jsx", "JavaScript JSX", 0, 0, 0, 0, 12, 0, 0, 0, 0, 3, 15
+"d:\react project\src\components\CategoriesButtonsList\CategoriesButtonsList.jsx", "JavaScript JSX", 0, 0, 0, 0, 26, 0, 0, 0, 0, 3, 29
+"d:\react project\src\components\CategoriesButtonsList\СategoriesButtonList.module.scss", "SCSS", 0, 0, 0, 25, 0, 0, 0, 0, 0, 3, 28
+"d:\react project\src\components\Desccription\Description.jsx", "JavaScript JSX", 0, 0, 0, 0, 10, 0, 0, 0, 0, 2, 12
+"d:\react project\src\components\Gallery\Gallery.jsx", "JavaScript JSX", 0, 0, 0, 0, 33, 0, 0, 0, 0, 4, 37
+"d:\react project\src\components\Gallery\Gallery.module.css", "PostCSS", 0, 0, 32, 0, 0, 0, 0, 0, 0, 1, 33
+"d:\react project\src\components\ModalPreviewContainer\ModalPreviewContainer.jsx", "JavaScript JSX", 0, 0, 0, 0, 42, 0, 0, 0, 0, 5, 47
+"d:\react project\src\components\ModalPreviewContainer\ModalPreviewContainer.module.scss", "SCSS", 0, 0, 0, 67, 0, 0, 0, 0, 0, 5, 72
+"d:\react project\src\components\ModalPreviewImage\ModalPreviewImage.jsx", "JavaScript JSX", 0, 0, 0, 0, 18, 0, 0, 0, 0, 4, 22
+"d:\react project\src\components\ModalPreviewImage\ModalPreviewImage.module.css", "PostCSS", 0, 0, 4, 0, 0, 0, 0, 0, 0, 0, 4
+"d:\react project\src\components\ModalPreviewPhoto\ModalPreviewPhoto.jsx", "JavaScript JSX", 0, 0, 0, 0, 40, 0, 0, 0, 0, 11, 51
+"d:\react project\src\components\ModalPreviewPhoto\ModalPreviewPhoto.module.scss", "SCSS", 0, 0, 0, 82, 0, 0, 0, 0, 0, 5, 87
+"d:\react project\src\components\SearchQueryForm\SearchQueryForm.jsx", "JavaScript JSX", 0, 0, 0, 0, 42, 0, 0, 0, 0, 7, 49
+"d:\react project\src\components\SearchQueryForm\SearchQueryForm.module.scss", "SCSS", 0, 0, 0, 48, 0, 0, 0, 0, 0, 4, 52
+"d:\react project\src\components\SelectButtonsList\SelectButtonsList.jsx", "JavaScript JSX", 0, 0, 0, 0, 26, 0, 0, 0, 0, 5, 31
+"d:\react project\src\components\SelectButtonsList\SelectButtonsList.module.css", "PostCSS", 0, 0, 8, 0, 0, 0, 0, 0, 0, 0, 8
+"d:\react project\src\components\SelectPhotoButton\SelectPhotoButton.jsx", "JavaScript JSX", 0, 0, 0, 0, 52, 0, 0, 0, 0, 8, 60
+"d:\react project\src\components\SelectPhotoButton\SelectPhotoButton.module.scss", "SCSS", 0, 0, 0, 62, 0, 0, 0, 0, 0, 3, 65
+"d:\react project\src\components\SelectPhotoImage\SelectPhotoImage.jsx", "JavaScript JSX", 0, 0, 0, 0, 23, 0, 0, 0, 0, 4, 27
+"d:\react project\src\components\SelectPhotoImage\SelectPhotoImage.module.css", "PostCSS", 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1
+"d:\react project\src\context\ImageContext.jsx", "JavaScript JSX", 0, 0, 0, 0, 54, 0, 0, 0, 0, 6, 60
+"d:\react project\src\hooks\useCreateCategoriesArray.js", "JavaScript", 20, 0, 0, 0, 0, 0, 0, 0, 0, 4, 24
+"d:\react project\src\hooks\useGetImagesAPIResponse.js", "JavaScript", 31, 0, 0, 0, 0, 0, 0, 0, 0, 11, 42
+"d:\react project\src\hooks\useImages.js", "JavaScript", 101, 0, 0, 0, 0, 0, 0, 0, 0, 25, 126
+"d:\react project\src\main.jsx", "JavaScript JSX", 0, 0, 0, 0, 8, 0, 0, 0, 0, 2, 10
+"d:\react project\src\styles\mixins.scss", "SCSS", 0, 0, 0, 70, 0, 0, 0, 0, 0, 5, 75
+"d:\react project\src\styles\reset.css", "PostCSS", 0, 0, 13, 0, 0, 0, 0, 0, 0, 0, 13
+"d:\react project\src\styles\variables.css", "PostCSS", 0, 0, 4, 0, 0, 0, 0, 0, 0, 0, 4
+"d:\react project\vite.config.js", "JavaScript", 5, 0, 0, 0, 0, 0, 0, 0, 1, 2, 8
+"Total", "-", 208, 1, 61, 354, 416, 3786, 12, 7, 1, 155, 5001
