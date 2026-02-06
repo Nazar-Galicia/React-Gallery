@@ -1,0 +1,96 @@
+Date : 2026-01-20 18:45:15
+Directory : d:\react project
+Total : 44 files,  1097 codes, 0 comments, 5 blanks, all 1102 lines
+
+Languages
++----------------+------------+------------+------------+------------+------------+
+| language       | files      | code       | comment    | blank      | total      |
++----------------+------------+------------+------------+------------+------------+
+| JSON           |          2 |        934 |          0 |          0 |        934 |
+| SCSS           |          6 |        354 |          0 |         25 |        379 |
+| JavaScript     |          5 |         56 |          0 |          9 |         65 |
+| JavaScript JSX |         19 |        -54 |          0 |        -22 |        -76 |
+| PostCSS        |         12 |       -193 |          0 |         -7 |       -200 |
++----------------+------------+------------+------------+------------+------------+
+
+Directories
++------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                                     | files      | code       | comment    | blank      | total      |
++------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                        |         44 |      1,097 |          0 |          5 |      1,102 |
+| . (Files)                                                                                |          2 |        934 |          0 |          0 |        934 |
+| src                                                                                      |         42 |        163 |          0 |          5 |        168 |
+| src\components                                                                           |         34 |         34 |          0 |         -2 |         32 |
+| src\components\AuthorLink                                                                |          1 |         18 |          0 |          2 |         20 |
+| src\components\Button                                                                    |          1 |         12 |          0 |          3 |         15 |
+| src\components\CategoriesButtonsList                                                     |          3 |         21 |          0 |          2 |         23 |
+| src\components\CategoryButton                                                            |          2 |        -51 |          0 |         -7 |        -58 |
+| src\components\Desccription                                                              |          1 |         10 |          0 |          2 |         12 |
+| src\components\DownloadImageButton                                                       |          1 |        -30 |          0 |         -6 |        -36 |
+| src\components\Gallery                                                                   |          2 |         41 |          0 |          2 |         43 |
+| src\components\LoadMoreButton                                                            |          2 |        -53 |          0 |         -5 |        -58 |
+| src\components\ModalExitButton                                                           |          2 |        -23 |          0 |         -3 |        -26 |
+| src\components\ModalPreviewContainer                                                     |          3 |         94 |          0 |          8 |        102 |
+| src\components\ModalPreviewImage                                                         |          2 |         -1 |          0 |          0 |         -1 |
+| src\components\ModalPreviewPhoto                                                         |          3 |         79 |          0 |         10 |         89 |
+| src\components\ModalSwitchPhotoButton                                                    |          2 |        -36 |          0 |         -5 |        -41 |
+| src\components\SearchQueryForm                                                           |          3 |         21 |          0 |          2 |         23 |
+| src\components\SelectButtonDesc                                                          |          1 |        -13 |          0 |         -3 |        -16 |
+| src\components\SelectButtonLink                                                          |          1 |        -21 |          0 |         -3 |        -24 |
+| src\components\SelectPhotoButton                                                         |          3 |        -30 |          0 |         -1 |        -31 |
+| src\components\SelectPhotoImage                                                          |          1 |         -4 |          0 |          0 |         -4 |
+| src\context                                                                              |          1 |          2 |          0 |         -7 |         -5 |
+| src\hooks                                                                                |          5 |         56 |          0 |          9 |         65 |
+| src\styles                                                                               |          2 |         71 |          0 |          5 |         76 |
++------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++------------------------------------------------------------------------------------------+----------------+------------+------------+------------+------------+
+| filename                                                                                 | language       | code       | comment    | blank      | total      |
++------------------------------------------------------------------------------------------+----------------+------------+------------+------------+------------+
+| d:\react project\package-lock.json                                                       | JSON           |        931 |          0 |          0 |        931 |
+| d:\react project\package.json                                                            | JSON           |          3 |          0 |          0 |          3 |
+| d:\react project\src\components\AuthorLink\AuthorLink.jsx                                | JavaScript JSX |         18 |          0 |          2 |         20 |
+| d:\react project\src\components\Button\Button.jsx                                        | JavaScript JSX |         12 |          0 |          3 |         15 |
+| d:\react project\src\components\CategoriesButtonsList\CategoriesButtonsList.jsx          | JavaScript JSX |          3 |          0 |         -1 |          2 |
+| d:\react project\src\components\CategoriesButtonsList\СategoriesButtonList.module.css    | PostCSS        |         -7 |          0 |          0 |         -7 |
+| d:\react project\src\components\CategoriesButtonsList\СategoriesButtonList.module.scss   | SCSS           |         25 |          0 |          3 |         28 |
+| d:\react project\src\components\CategoryButton\CategoryButton.jsx                        | JavaScript JSX |        -28 |          0 |         -6 |        -34 |
+| d:\react project\src\components\CategoryButton\CategoryButton.module.css                 | PostCSS        |        -23 |          0 |         -1 |        -24 |
+| d:\react project\src\components\Desccription\Description.jsx                             | JavaScript JSX |         10 |          0 |          2 |         12 |
+| d:\react project\src\components\DownloadImageButton\DownloadImageButton.jsx              | JavaScript JSX |        -30 |          0 |         -6 |        -36 |
+| d:\react project\src\components\Gallery\Gallery.jsx                                      | JavaScript JSX |         15 |          0 |          1 |         16 |
+| d:\react project\src\components\Gallery\Gallery.module.css                               | PostCSS        |         26 |          0 |          1 |         27 |
+| d:\react project\src\components\LoadMoreButton\LoadMoreButton.jsx                        | JavaScript JSX |        -27 |          0 |         -4 |        -31 |
+| d:\react project\src\components\LoadMoreButton\LoadMoreButton.module.css                 | PostCSS        |        -26 |          0 |         -1 |        -27 |
+| d:\react project\src\components\ModalExitButton\ModalExitButton.jsx                      | JavaScript JSX |        -17 |          0 |         -3 |        -20 |
+| d:\react project\src\components\ModalExitButton\ModalExitButton.module.css               | PostCSS        |         -6 |          0 |          0 |         -6 |
+| d:\react project\src\components\ModalPreviewContainer\ModalPreviewContainer.jsx          | JavaScript JSX |         32 |          0 |          3 |         35 |
+| d:\react project\src\components\ModalPreviewContainer\ModalPreviewContainer.module.css   | PostCSS        |         -5 |          0 |          0 |         -5 |
+| d:\react project\src\components\ModalPreviewContainer\ModalPreviewContainer.module.scss  | SCSS           |         67 |          0 |          5 |         72 |
+| d:\react project\src\components\ModalPreviewImage\ModalPreviewImage.jsx                  | JavaScript JSX |          2 |          0 |          0 |          2 |
+| d:\react project\src\components\ModalPreviewImage\ModalPreviewImage.module.css           | PostCSS        |         -3 |          0 |          0 |         -3 |
+| d:\react project\src\components\ModalPreviewPhoto\ModalPreviewPhoto.jsx                  | JavaScript JSX |         16 |          0 |          5 |         21 |
+| d:\react project\src\components\ModalPreviewPhoto\ModalPreviewPhoto.module.css           | PostCSS        |        -19 |          0 |          0 |        -19 |
+| d:\react project\src\components\ModalPreviewPhoto\ModalPreviewPhoto.module.scss          | SCSS           |         82 |          0 |          5 |         87 |
+| d:\react project\src\components\ModalSwitchPhotoButton\ModalSwitchPhotoButton.jsx        | JavaScript JSX |        -30 |          0 |         -5 |        -35 |
+| d:\react project\src\components\ModalSwitchPhotoButton\ModalSwitchPhotoButton.module.css | PostCSS        |         -6 |          0 |          0 |         -6 |
+| d:\react project\src\components\SearchQueryForm\SearchQueryForm.jsx                      | JavaScript JSX |          4 |          0 |          0 |          4 |
+| d:\react project\src\components\SearchQueryForm\SearchQueryForm.module.css               | PostCSS        |        -31 |          0 |         -2 |        -33 |
+| d:\react project\src\components\SearchQueryForm\SearchQueryForm.module.scss              | SCSS           |         48 |          0 |          4 |         52 |
+| d:\react project\src\components\SelectButtonDesc\SelectButtonDesc.jsx                    | JavaScript JSX |        -13 |          0 |         -3 |        -16 |
+| d:\react project\src\components\SelectButtonLink\SelectButtonLink.jsx                    | JavaScript JSX |        -21 |          0 |         -3 |        -24 |
+| d:\react project\src\components\SelectPhotoButton\SelectPhotoButton.jsx                  | JavaScript JSX |          2 |          0 |          0 |          2 |
+| d:\react project\src\components\SelectPhotoButton\SelectPhotoButton.module.css           | PostCSS        |        -94 |          0 |         -4 |        -98 |
+| d:\react project\src\components\SelectPhotoButton\SelectPhotoButton.module.scss          | SCSS           |         62 |          0 |          3 |         65 |
+| d:\react project\src\components\SelectPhotoImage\SelectPhotoImage.jsx                    | JavaScript JSX |         -4 |          0 |          0 |         -4 |
+| d:\react project\src\context\ImageContext.jsx                                            | JavaScript JSX |          2 |          0 |         -7 |         -5 |
+| d:\react project\src\hooks\useCreateCategoriesArray.js                                   | JavaScript     |          1 |          0 |          0 |          1 |
+| d:\react project\src\hooks\useDownloadImage.js                                           | JavaScript     |        -16 |          0 |         -7 |        -23 |
+| d:\react project\src\hooks\useGetImagesAPIResponse.js                                    | JavaScript     |          3 |          0 |          0 |          3 |
+| d:\react project\src\hooks\useImages.js                                                  | JavaScript     |         88 |          0 |         21 |        109 |
+| d:\react project\src\hooks\useSwitchPhotoButton.js                                       | JavaScript     |        -20 |          0 |         -5 |        -25 |
+| d:\react project\src\styles\mixins.scss                                                  | SCSS           |         70 |          0 |          5 |         75 |
+| d:\react project\src\styles\reset.css                                                    | PostCSS        |          1 |          0 |          0 |          1 |
+| Total                                                                                    |                |      1,097 |          0 |          5 |      1,102 |
++------------------------------------------------------------------------------------------+----------------+------------+------------+------------+------------+

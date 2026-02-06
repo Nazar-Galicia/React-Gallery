@@ -1,0 +1,47 @@
+"filename", "language", "JavaScript", "JSON", "HTML", "PostCSS", "JavaScript JSX", "Dotenv", "Markdown", "comment", "blank", "total"
+"d:\react project\.env", "Dotenv", 0, 0, 0, 0, 0, 1, 0, 0, 0, 1
+"d:\react project\README.md", "Markdown", 0, 0, 0, 0, 0, 0, 7, 0, 6, 13
+"d:\react project\eslint.config.js", "JavaScript", 28, 0, 0, 0, 0, 0, 0, 0, 2, 30
+"d:\react project\index.html", "HTML", 0, 0, 12, 0, 0, 0, 0, 0, 1, 13
+"d:\react project\package-lock.json", "JSON", 0, 2825, 0, 0, 0, 0, 0, 0, 1, 2826
+"d:\react project\package.json", "JSON", 0, 27, 0, 0, 0, 0, 0, 0, 1, 28
+"d:\react project\src\App.jsx", "JavaScript JSX", 0, 0, 0, 0, 12, 0, 0, 0, 5, 17
+"d:\react project\src\api\imageAPI.js", "JavaScript", 23, 0, 0, 0, 0, 0, 0, 0, 4, 27
+"d:\react project\src\components\CategoriesButtonsList\CategoriesButtonsList.jsx", "JavaScript JSX", 0, 0, 0, 0, 27, 0, 0, 0, 4, 31
+"d:\react project\src\components\CategoriesButtonsList\categories-button-container.css", "PostCSS", 0, 0, 0, 7, 0, 0, 0, 0, 0, 7
+"d:\react project\src\components\CategoryButton\CategoryButton.jsx", "JavaScript JSX", 0, 0, 0, 0, 27, 0, 0, 0, 5, 32
+"d:\react project\src\components\CategoryButton\category-button.css", "PostCSS", 0, 0, 0, 23, 0, 0, 0, 0, 1, 24
+"d:\react project\src\components\DownloadImageButton\DownloadImageButton.jsx", "JavaScript JSX", 0, 0, 0, 0, 27, 0, 0, 0, 5, 32
+"d:\react project\src\components\DownloadImageButton\download-image-button.css", "PostCSS", 0, 0, 0, 20, 0, 0, 0, 0, 1, 21
+"d:\react project\src\components\Gallery\Gallery.jsx", "JavaScript JSX", 0, 0, 0, 0, 18, 0, 0, 0, 4, 22
+"d:\react project\src\components\Gallery\gallery.css", "PostCSS", 0, 0, 0, 6, 0, 0, 0, 0, 0, 6
+"d:\react project\src\components\LoadMoreButton\LoadMoreButton.jsx", "JavaScript JSX", 0, 0, 0, 0, 27, 0, 0, 0, 4, 31
+"d:\react project\src\components\LoadMoreButton\load-more-button.css", "PostCSS", 0, 0, 0, 26, 0, 0, 0, 0, 1, 27
+"d:\react project\src\components\ModalExitButton\ModalExitButton.jsx", "JavaScript JSX", 0, 0, 0, 0, 16, 0, 0, 0, 3, 19
+"d:\react project\src\components\ModalPreviewContainer\ModalPreviewContainer.jsx", "JavaScript JSX", 0, 0, 0, 0, 9, 0, 0, 0, 2, 11
+"d:\react project\src\components\ModalPreviewImage\ModalPreviewImage.jsx", "JavaScript JSX", 0, 0, 0, 0, 15, 0, 0, 0, 4, 19
+"d:\react project\src\components\ModalPreviewPhoto\ModalPreviewPhoto.jsx", "JavaScript JSX", 0, 0, 0, 0, 23, 0, 0, 0, 5, 28
+"d:\react project\src\components\ModalPreviewPhoto\modal-preview-photo.css", "PostCSS", 0, 0, 0, 43, 0, 0, 0, 0, 0, 43
+"d:\react project\src\components\ModalSwitchPhotoButton\ModalSwitchPhotoButton.jsx", "JavaScript JSX", 0, 0, 0, 0, 29, 0, 0, 0, 5, 34
+"d:\react project\src\components\SearchQueryForm\SearchQueryForm.jsx", "JavaScript JSX", 0, 0, 0, 0, 36, 0, 0, 0, 7, 43
+"d:\react project\src\components\SearchQueryForm\search-query-form.css", "PostCSS", 0, 0, 0, 31, 0, 0, 0, 0, 2, 33
+"d:\react project\src\components\SelectButtonLink\SelectButtonLink.jsx", "JavaScript JSX", 0, 0, 0, 0, 18, 0, 0, 0, 3, 21
+"d:\react project\src\components\SelectButtonLink\select-button-link.css", "PostCSS", 0, 0, 0, 16, 0, 0, 0, 0, 1, 17
+"d:\react project\src\components\SelectButtonsList\SelectButtonsList.jsx", "JavaScript JSX", 0, 0, 0, 0, 26, 0, 0, 0, 5, 31
+"d:\react project\src\components\SelectButtonsList\select-button-container.css", "PostCSS", 0, 0, 0, 8, 0, 0, 0, 0, 0, 8
+"d:\react project\src\components\SelectPhotoButton\SelectPhotoButton.jsx", "JavaScript JSX", 0, 0, 0, 0, 35, 0, 0, 0, 6, 41
+"d:\react project\src\components\SelectPhotoButton\select-button.css", "PostCSS", 0, 0, 0, 9, 0, 0, 0, 0, 0, 9
+"d:\react project\src\components\SelectPhotoImage\SelectPhotoImage.jsx", "JavaScript JSX", 0, 0, 0, 0, 27, 0, 0, 0, 5, 32
+"d:\react project\src\components\SelectPhotoImage\button-image.css", "PostCSS", 0, 0, 0, 9, 0, 0, 0, 0, 1, 10
+"d:\react project\src\context\ImageContext.jsx", "JavaScript JSX", 0, 0, 0, 0, 56, 0, 0, 0, 13, 69
+"d:\react project\src\hooks\useCreateCategoriesArray.js", "JavaScript", 19, 0, 0, 0, 0, 0, 0, 0, 4, 23
+"d:\react project\src\hooks\useDownloadImage.js", "JavaScript", 16, 0, 0, 0, 0, 0, 0, 0, 7, 23
+"d:\react project\src\hooks\useGetImagesAPIResponse.js", "JavaScript", 28, 0, 0, 0, 0, 0, 0, 0, 11, 39
+"d:\react project\src\hooks\useImages.js", "JavaScript", 13, 0, 0, 0, 0, 0, 0, 0, 4, 17
+"d:\react project\src\hooks\useModalPreviewPhoto.js", "JavaScript", 9, 0, 0, 0, 0, 0, 0, 0, 2, 11
+"d:\react project\src\hooks\useSwitchPhotoButton.js", "JavaScript", 20, 0, 0, 0, 0, 0, 0, 0, 5, 25
+"d:\react project\src\main.jsx", "JavaScript JSX", 0, 0, 0, 0, 8, 0, 0, 0, 2, 10
+"d:\react project\src\styles\reset.css", "PostCSS", 0, 0, 0, 12, 0, 0, 0, 0, 0, 12
+"d:\react project\src\styles\variables.css", "PostCSS", 0, 0, 0, 4, 0, 0, 0, 0, 0, 4
+"d:\react project\vite.config.js", "JavaScript", 5, 0, 0, 0, 0, 0, 0, 1, 2, 8
+"Total", "-", 161, 2852, 12, 214, 436, 1, 7, 1, 144, 3828

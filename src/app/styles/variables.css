@@ -1,0 +1,4 @@
+:root {
+    --gallery-max-width: 1600px;
+    --gallery-button-width: calc((var(--gallery-max-width) / 4) - 40px);
+}

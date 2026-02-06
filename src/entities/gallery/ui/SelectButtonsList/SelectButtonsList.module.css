@@ -1,0 +1,8 @@
+.buttonsList ul {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    z-index: 1;
+}

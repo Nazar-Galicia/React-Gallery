@@ -1,0 +1,72 @@
+@use '@/app/styles/mixins';
+
+.photoContainer {
+    --photoContainer-width: 80%;
+
+    width: var(--photoContainer-width);
+    height: 100%;
+    position: relative;
+    top: -50%;
+    translate: 0 50%;
+    font-size: var(--photoContainer-width);
+}
+.wrapper {
+    width: 100%;
+    height: auto;
+    display: block;
+    position: relative;
+    top: 50%;
+    translate: 0 -50%;
+    z-index: 200;
+}
+.description {
+    position: absolute;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.397);
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-size: 2em;
+    max-width: 50%;
+    font-family: sans-serif;
+    font-weight: 600;
+    margin: 0 0 20px 20px;
+    bottom: 0;
+}
+
+.authorLink {
+    @include mixins.authorLink(10px 0 0 10px, absolute);
+    opacity: 0;
+}
+
+.downloadButton {
+    @include mixins.downloadButton('.downloadImg', 20px 20px 0 0, absolute);
+    opacity: 0;
+}
+.downloadImg {
+    @include mixins.downloadImg;
+}
+
+@media (max-width: 768px) {
+    .photoContainer {
+        --photoContainer-width: 100%;
+    }
+    .description {
+        font-size: 1.5em;
+    }
+    .downloadButton {
+        opacity: 1;
+        right: 0;
+    }
+    .authorLink {
+        opacity: 1;
+    }
+}
+@media (max-width: 480px) {
+    .description {
+        margin: 0 0 10px 10px;
+        font-size: 0.7em;
+    }
+    .downloadButton {
+        margin: 10px 10px 0 0;
+    }
+}

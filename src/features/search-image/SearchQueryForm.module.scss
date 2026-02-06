@@ -1,0 +1,52 @@
+@use '@/app/styles/mixins';
+
+.queryForm {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    margin-bottom: 40px;
+}
+.queryInput {
+    width: 50%;
+    padding: 5px 10px;
+    border-bottom: 1px solid black;
+
+    &:focus {
+        outline: 0;
+        border-bottom: 2px solid gray;
+    }
+}
+.queryButton {
+    padding: 5px 10px;
+    color: white;
+    background-color: black;
+    font-weight: 500;
+    border: 1px solid black;
+    cursor: pointer;
+    border-radius: 3px;
+    transition: all 0.3s;
+
+    @include mixins.fixHover() {
+        color: black;
+        background-color: white;
+    }
+}
+.fieldsContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 10px;
+}
+.totalInfo {
+    font-size: 24px;
+    font-family: sans-serif;
+    text-align: center;
+    padding: 10px;
+}
+
+@media (max-width: 480px) {
+    .queryInput {
+        width: 80%;
+    }
+}
