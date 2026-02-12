@@ -15,6 +15,9 @@ const SelectPhotoButton = (props) => {
         imageAlt,
         photographer,
         photographerURL,
+        setModalVisibility,
+        showImage,
+        currentImageIndex,
     } = props
 
     const {
@@ -53,6 +56,9 @@ const SelectPhotoButton = (props) => {
                 src={imagePath} 
                 imageID={imageID}
                 imageClass={styles.buttonImg}
+                setModalVisibility={setModalVisibility}
+                showImage={showImage}
+                currentImageIndex={currentImageIndex}
             />
         </div>
     )

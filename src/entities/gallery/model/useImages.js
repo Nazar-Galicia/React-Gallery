@@ -26,19 +26,6 @@ export function useImages() {
     const totalResults = useRef(0)
     const perPage = 80
 
-    const [image, setImage] = useState({})
-
-    const showImage = useCallback((imageID) => {
-        const filteredImg = images.find(({ id }) => id === imageID)
-        setImage({
-            id: imageID,
-            img: filteredImg.src.landscape,
-            desc: filteredImg.alt,
-            photographer: filteredImg.photographer,
-            photographerURL: filteredImg.photographer_url
-        })
-    }, [images])
-
     const donwloadImage = useCallback((imageId) => {
         const imageSrc = images.find(({ id }) => id === imageId).src.original
 
@@ -65,43 +52,6 @@ export function useImages() {
         })
     }, [totalPages, page])
 
-    const [modalVisibility, setModalVisibility] = useState(false)
-    const currentImageIndex = useRef(0)
-
-    const openModal = useCallback((id) => {
-        showImage(id)
-        currentImageIndex.current = images.findIndex((photos) => photos.id === id)
-
-        setModalVisibility(true)
-    }, [images, showImage])
-
-    const closeModal = useCallback(() => {
-        setModalVisibility(false)
-    }, [])
-
-    const modalImageRef = useRef(null)
-
-    const switchPhoto = useCallback((direction, animStyle) => {
-        if (direction === 'left') {
-            currentImageIndex.current = (currentImageIndex.current - 1 + images.length) % images.length
-        } else if (direction === 'right') {
-            currentImageIndex.current = (currentImageIndex.current + 1) % images.length
-        }
-
-        animStyle.forEach((style) => {
-            modalImageRef.current.classList.add(style)
-        })
-
-        setTimeout(() => showImage(images[currentImageIndex.current].id), 75)
-
-        setTimeout(() => {
-            animStyle.forEach((style) => {
-                modalImageRef.current.classList.remove(style)
-            })
-        }, 200)
-
-    }, [images, showImage])
-
     const queryInfo = useRef(category)  
 
     const changeCategory = useCallback((category) => {
@@ -124,7 +74,6 @@ export function useImages() {
     }, [page, category]);
 
     return {
-        image,
         images,
         categories,
         setCategory,
@@ -133,15 +82,8 @@ export function useImages() {
         page,
         totalResults,
         queryInfo,
-        showImage,
         donwloadImage,
         loadMore,
-        modalVisibility,
-        openModal,
-        closeModal,
-        currentImageIndex,
-        switchPhoto,
-        modalImageRef,
         changeCategory,
     }
 }

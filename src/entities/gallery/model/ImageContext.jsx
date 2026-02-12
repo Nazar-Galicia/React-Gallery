@@ -7,7 +7,6 @@ export const ImageProvider = (props) => {
     const { children } = props
 
     const {
-        image,
         images,
         categories,
         setCategory,
@@ -16,24 +15,13 @@ export const ImageProvider = (props) => {
         totalPages,
         totalResults,
         queryInfo,
-        showImage,
         donwloadImage,
         loadMore,
-        modalVisibility,
-        openModal,
-        closeModal,
-        currentImageIndex,
-        switchPhoto,
-        modalImageRef,
         changeCategory,
     } = useImages();
 
     const value = useMemo(() => ({
         images,
-        showImage,
-        image,
-        modalVisibility,
-        switchPhoto,
         categories,
         setCategory,
         setPage,
@@ -41,19 +29,11 @@ export const ImageProvider = (props) => {
         totalPages,
         totalResults,
         queryInfo,
-        modalImageRef,
         donwloadImage,
         loadMore,
-        openModal,
-        closeModal,
-        currentImageIndex,
         changeCategory,
     }), [
         images,
-        showImage,
-        image,
-        modalVisibility,
-        switchPhoto,
         categories,
         setCategory,
         setPage,
@@ -61,12 +41,8 @@ export const ImageProvider = (props) => {
         totalPages,
         totalResults,
         queryInfo,
-        modalImageRef,
         donwloadImage,
         loadMore,
-        openModal,
-        closeModal,
-        currentImageIndex,
         changeCategory,
     ])
 

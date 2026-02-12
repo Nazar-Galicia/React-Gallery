@@ -1,13 +1,8 @@
-import { ImageContext } from '@/entities/gallery'
 import styles from './ModalPreviewImage.module.css'
-import { memo, useContext } from 'react'
+import { memo } from 'react'
 
 const ModalPreviewImage = (props) => {
-    const { src } = props
-
-    const {
-        modalImageRef,
-    } = useContext(ImageContext)
+    const { src, modalImageRef } = props
 
     return (
         <img 

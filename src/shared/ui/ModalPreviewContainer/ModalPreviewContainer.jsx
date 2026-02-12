@@ -7,10 +7,15 @@ import Button from "@/shared/ui/Button"
 import DownloadIcon from '@/shared/assets/icons/download-icon.png'
 import styles from './ModalPreviewContainer.module.scss'
 
-const ModalPreviewContainer = () => {
+const ModalPreviewContainer = (props) => {
+    const {
+        donwloadImage,
+    } = useContext(ImageContext)
+
     const {
         image,
-    } = useContext(ImageContext)
+        modalImageRef,
+    } = props
 
     const {
         id,
@@ -18,11 +23,8 @@ const ModalPreviewContainer = () => {
         desc,
         photographer,
         photographerURL,
-    } = image
 
-    const {
-        donwloadImage,
-    } = useContext(ImageContext)
+    } = image
 
     return (
         <div className={styles.photoContainer}>
@@ -38,7 +40,7 @@ const ModalPreviewContainer = () => {
                     alt="arrow down" 
                 />
             </Button>
-                <ModalPreviewImage src={img} />
+                <ModalPreviewImage src={img} modalImageRef={modalImageRef} />
                 <Description className={styles.description}>{desc}</Description>
             </div>
         </div>

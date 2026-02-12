@@ -1,5 +1,5 @@
-import { memo, useContext } from "react"
-import { ImageContext } from "@/entities/gallery"
+import {memo, useCallback, useContext} from "react"
+import {ImageContext} from "@/entities/gallery/index.js";
 
 const SelectPhotoImage = (props) => {
     const {
@@ -7,11 +7,20 @@ const SelectPhotoImage = (props) => {
         alt,
         imageID,
         imageClass,
+        setModalVisibility,
+        showImage,
+        currentImageIndex,
     } = props
 
     const {
-        openModal,
+        images,
     } = useContext(ImageContext)
+
+    const openModal = useCallback((id) => {
+        showImage(id)
+        currentImageIndex.current = images.findIndex((photos) => photos.id === id)
+        setModalVisibility(true)
+    }, [setModalVisibility, showImage, currentImageIndex, images])
 
     return (
         <img

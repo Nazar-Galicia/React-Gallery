@@ -4,7 +4,13 @@ import { ImageContext } from "@/entities/gallery"
 
 import styles from './SelectButtonsList.module.css'
 
-const SelectButtonsList = () => {
+const SelectButtonsList = (props) => {
+
+    const {
+        setModalVisibility,
+        showImage,
+        currentImageIndex,
+    } = props
 
     const {
         images,
@@ -21,6 +27,9 @@ const SelectButtonsList = () => {
                     imageAlt={photo.alt}
                     photographer={photo.photographer}
                     photographerURL={photo.photographer_url}
+                    setModalVisibility={setModalVisibility}
+                    showImage={showImage}
+                    currentImageIndex={currentImageIndex}
                 />
                ))} 
             </ul>
