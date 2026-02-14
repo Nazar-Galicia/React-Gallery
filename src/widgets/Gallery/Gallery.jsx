@@ -23,21 +23,13 @@ const Gallery = () => {
 
     const showImage = useCallback((imageID) => {
         const filteredImg = images.find(({ id }) => id === imageID)
-        // setImage({
-        //     id: imageID,
-        //     img: filteredImg.src.landscape,
-        //     desc: filteredImg.alt,
-        //     photographer: filteredImg.photographer,
-        //     photographerURL: filteredImg.photographer_url
-        // })
-        const newImage = {
+        setImage({
             id: imageID,
             img: filteredImg.src.landscape,
             desc: filteredImg.alt,
             photographer: filteredImg.photographer,
             photographerURL: filteredImg.photographer_url
-        }
-        setImage(newImage)
+        })
     }, [images])
 
     return (

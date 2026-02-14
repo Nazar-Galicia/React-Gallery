@@ -20,11 +20,11 @@ export function useImages() {
 
     const firstCategory = categories[0]
     const [category, setCategory] = useState(firstCategory.category)
-
-    const [images, setImages] = useState([])
     const totalPages = useRef(0)
     const totalResults = useRef(0)
     const perPage = 80
+
+    const [images, setImages] = useState([])
 
     const donwloadImage = useCallback((imageId) => {
         const imageSrc = images.find(({ id }) => id === imageId).src.original
@@ -62,6 +62,7 @@ export function useImages() {
     useEffect(() => {
         setImages([])
         setPage(1)
+        console.log(images)
     }, [category]);
 
     useEffect(() => {
@@ -71,6 +72,7 @@ export function useImages() {
             totalResults.current = serverImages.total_results
             totalPages.current = Math.ceil(totalResults.current / perPage)
         })
+        console.log(images)
     }, [page, category]);
 
     return {
